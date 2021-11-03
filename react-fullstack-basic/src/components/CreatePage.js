@@ -6,8 +6,8 @@ import { DRAFTS_QUERY } from './DraftsPage'
 
 class CreatePage extends Component {
   state = {
-    title: '',
-    content: '',
+    title: 'Sai Charan Patlolla',
+    content: 'About',
   }
 
   render() {
@@ -58,7 +58,7 @@ class CreatePage extends Component {
                     'dim pointer'}`}
                   disabled={!this.state.content || !this.state.title}
                   type="submit"
-                  value="Create"
+                  value="Create the template"
                 />
                 <a className="f6 pointer" onClick={this.props.history.goBack}>
                   or cancel
